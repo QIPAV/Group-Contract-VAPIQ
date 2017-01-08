@@ -1,0 +1,163 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[]{fullpage}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{tabu}
+\usepackage{subfiles}
+\usepackage{blindtext}
+\usepackage{lipsum}
+\usepackage{color, colortbl}
+\usepackage{xcolor}
+\usepackage{tikz} 
+\usepackage{eso-pic}
+\usepackage{amsmath}
+
+\pagestyle{fancy}
+    
+\lhead{Group Contract}
+\rhead{Date: 04.01.2017}
+
+\author{Tomas Lyngroth \\ Aleksander Holthe \\ Vanja Katinka Halvorsen \\ Stian Fredriksen \\ Kent Kjeldaas \\ Katrine Sundal Haune}
+
+\makeatletter
+\let\vapiqteam\@author
+\let\thedate\@date
+
+\definecolor{cadetgrey}{rgb}{0.57, 0.64, 0.69}      % Dark Color
+\definecolor{gainsboro}{rgb}{0.86, 0.86, 0.86}      % Light Color
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%% FRONT PAGE
+\begin{titlepage}
+    \centering
+    \pagecolor{gainsboro}
+    \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north east,inner sep=7pt] at (current page.north east)
+        {\includegraphics[scale=0.4]{VAPIQ-PICTURES/LogoMerged3}};        
+    \end{tikzpicture}
+	\\[3.0 cm]
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width = 0.35\textwidth]{VAPIQ-PICTURES//Logo2_Tilted.png}
+    \\[2.0 cm]
+    \end{figure}                        
+    \textsc{\Huge Group Contract}       
+    \\[4.0 cm]
+	\large \vapiqteam      
+\end{titlepage}
+\pagecolor{white}
+
+
+\newpage
+%% DOCUMENT HISTORY TABLE
+%%% This table should be updated with all major changes
+%%%% OBS! When syncing with Github, remember to leave comment corresponding with version number from this table
+\begin{center}
+\vspace*{1 cm}
+\section*{\textbf{Document History}}
+\begin{tabular}{cllll}
+\rowcolor{cadetgrey}
+\textbf{Version:}    &\textbf{Date:} 	 &\textbf{Comment:}    &\textbf{Done by:}   &\textbf{Approved by:}  \\
+
+0.0       & $06.01.17$   & Created .tex-file, standard front page, & VKH  & VKH \\
+          &              & tables and structures. Github Synched.    &     & \\\rowcolor{gainsboro}
+1.0       & $06.01.17$   & Content of Group Contract  & KK    & KK          \\
+1.1       & $08.01.17$   & Edited structure and spacing & VKH    & VKH          \\ \rowcolor{gainsboro}
+1.2       & $00.00.00$   & what was done  & Name    & Name          \\
+\end{tabular}                                                                   
+\end{center}
+
+\vspace*{3.0 cm}
+
+%% ACRONYMS
+\begin{center}
+\section*{\textbf{Acronyms}}
+\begin{tabular}{ll}
+\rowcolor{cadetgrey}
+    &   \\
+Variable Pitch Quadcopter   & VAPIQ \\\rowcolor{gainsboro}
+Thomas Lyngroth       & TH          \\ 
+Alekander Holthe      & AH          \\\rowcolor{gainsboro}
+Vanja Katinka Halvorsen     & VKH   \\
+Stian Fredriksen      & SF          \\\rowcolor{gainsboro}
+Kent Kjeldaas         & KK          \\
+Katrine Sundal Haune  & KSH         \\\rowcolor{gainsboro}
+\end{tabular}                                                             
+\end{center}
+\newpage
+
+
+
+%% TEXT
+\vspace*{1.0 cm}
+\subsection*{Purpose}
+The purpose of the contract is to achieve the best study environment and grades for the whole group.
+
+\subsection*{§1. Compulsory Attendance}
+Everyone will meet prepared on time. In case of illness or legitimate absence the group member must give notice in good time, so that changes to the meeting or project can be changed or postponed.
+
+\subsection*{§2. Notification requirements}
+Notices of change in working hours or place of work should be given to everyone in the group, so that it is possible to arrange time and place for the individual student.
+
+\subsection*{§3. Democracy}
+By disagreement or changes in a project the group will result the conflict by voting. In case of disagreement the group leader will have the deciding vote.
+
+\subsection*{§4. Work Distribution}
+The tasks shall be performed by members in approximately equal amounts. There are also opportunities to be assigned to tasks by the employees' abilities and desires, as long as this is feasible.
+
+\subsection*{§5. Work Environment}
+Project participants hereby undertake to contribute to a positive environment, where members must be treated with respect and value.
+
+\subsection*{§6. Deadlines}
+All deadlines will be held and task completed and delivered within the given time. In any unforeseen event, the student shall notice the group leader in good time.
+
+\subsection*{§7. Breaches}
+Any violation to the group contract will result with an oral and a written warning. With multiple breaches the student will be reported to the teacher for assessment of punishment.
+\newpage
+
+\vspace*{1 cm}
+The contract is read and accepted. By signing this contract the student commits to the content, requirements and consequences of the contract.\\\\
+\textbf{Place, date and signature:}\\
+
+\begin{center}
+\line(1,0){450}
+\end{center}
+\vspace*{0.5 cm}
+\begin{center}
+\line(1,0){450}
+\end{center}
+\vspace*{0.5 cm}
+\begin{center}
+\line(1,0){450}
+\end{center}
+\vspace*{0.5 cm}
+\begin{center}
+\line(1,0){450}
+\end{center}
+\vspace*{0.5 cm}
+\begin{center}
+\line(1,0){450}
+\end{center}
+\vspace*{0.5 cm}
+\begin{center}
+\line(1,0){450}
+\end{center}
+\vspace*{0.5 cm}
+\begin{center}
+\line(1,0){450}
+\end{center}
+\vspace*{0.5 cm}
+\begin{center}
+\line(1,0){450}
+\end{center}
+
+
+
+\end{document}
